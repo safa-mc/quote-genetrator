@@ -161,7 +161,7 @@ html {
     width:100% ;
     /* background-color: #ababab; */
         /* background: url(https://img.freepik.com/photos-premium/papier-peint-monochrome-abstrait-simple_1148167-71303.jpg) center center/cover; */
-            background: url(../images/IMAGE2.jpg) center center/cover;
+            background: url(./images/IMAGE2.jpg) center center/cover;
 
         /* background: url(https://i.ytimg.com/vi/eOh3DDfxG8M/maxresdefault.jpg) center center/cover; */
     display: flex;
