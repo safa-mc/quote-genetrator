@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote generator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+
+</head>
+<body>
+    <!-- page1 : -->
+
+    <div id="page1" class="page1">
+        <div class="page1-center">
+            <div class="page1-center-top">
+                <h1>Random Quote Generator</h1>
+            </div>
+            <div class="page1-center-center">
+                <div class="page1-center-center-center">
+                    <div class="page1-center-center-center-top">
+                        <div id="texte1" class="page1-center-center-center-top-center">
+                           <p id="quote">La vie est un mystère qu'il faut vivre, et non un problème à résoudre.</p>                         
+                        </div>
+                    </div>
+                    <div class="page1-center-center-center-bottom">
+                        <div id="texte2" class="page1-center-center-center-bottom-center">
+                            <p id="autors">Gandhi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page1-center-bottom">
+                <div class="page1-center-bottom-center">
+                    <div class="page1-center-bottom-center-left">
+                        <span id="delete" style="display: flex; justify-content: center; align-items: center;" class="material-icons-outlined">
+                            delete
+                        </span>
+                        <span id="voicebutton" style="display: flex; justify-content: center; align-items: center;" class="material-icons-outlined">
+                            settings_voice
+                        </span>
+                        <span id="save" style="display: flex; justify-content: center; align-items: center;" class="material-icons-outlined">
+                            bookmark
+                        </span>
+                    </div>
+                    <div class="page1-center-bottom-center-right">
+                        <button id="new-quote-button">New Quote</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page2 : -->
+
+    <div id="page2" class="page2">
+        <div class="page2-center">
+            <div class="page2-center-top">
+                <h2>Quote Library</h2>
+            </div>
+            <div class="page2-center-center">
+                <div class="page2-center-center-center">
+                    <div id="ici" class="page2-center-center-center-center">
+                        <!-- contient center a js -->
+                        <!-- <div class="page2-center-center-center-center-list">
+                            <div class="page2-center-center-center-center-list-left">
+                                <p class="list-content"></p>
+                            </div>
+                            <div class="page2-center-center-center-center-list-right">
+                                <span class="material-icons-outlined">
+                                    delete
+                                </span>
+                            </div>
+                        </div> -->
+                        <!-- end -->
+                    </div>
+                </div>
+            </div>
+            <div class="page2-center-bottom">
+                <div class="page2-center-bottom-center">
+                    <!-- bouttons -->
+                    <a href="#page3"><button id="Trash-Bin">Trash Bin</button></a>
+                    <a href="#page1"><button id="Back-to-Genartor">Back to Genartor</button></a>
+                    <button id="clearall">Clear All Quotes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page3 : -->
+
+    <div id="page3" class="page3">
+        <div class="page3-center">
+            <div class="page3-center-top">
+                <h1>Quotes's Trash bin</h1>
+            </div>
+            <div class="page3-center-center">
+                <div class="page3-center-center-center">
+                    <div class="page3-center-center-center-center">
+                        
+                    </div>
+                    <!-- contient center js -->
+                        <!-- <div class="page3-center-center-center-center-list">
+                            <div class="page3-center-center-center-center-list-left">
+                                <p class="list-content"></p>
+                            </div>
+                            <div class="page3-center-center-center-center-list-right">
+                                <span class="material-icons-outlined">
+                                    refresh
+                                </span>
+                                <span class="material-icons-outlined">
+                                    delete
+                                </span>
+                            </div>
+                        </div> -->
+                        <!-- end -->
+                </div>
+            </div>
+            <div class="page3-center-bottom">
+                <div class="page3-center-bottom-center">
+                    <!-- bouttons -->
+                    <a href="#page1"><button>Back to Genartor</button></a>
+                    <a href="#page2"><button>Go Back to Library</button></a>
+                    <button id="clearall3">Clear ALL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
